@@ -1,0 +1,13 @@
+html
+	head
+		title!= title
+	body
+		table
+			tr
+				th= 'Status'
+				th= 'Transactions'
+			each status, transactions in data
+				tr
+					th= transactions
+					th= status
+			
