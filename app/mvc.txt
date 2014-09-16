@@ -1,0 +1,10 @@
+The m-v-c pattern with node.js using express.js and CouchBase
+
+The view has the role of showing what is needed from the model of data or how to represent the data.
+Here I created an HTML table which is fed from the model data after being altered from controller.
+
+The model is the data being received from the kokos.pl API, then is stored in the couchBase db as JSON
+files.
+
+The controller glues the model and viewer togather and and notifies them when there has been user interaction
+for the model to update its data and view to render an updated view.
